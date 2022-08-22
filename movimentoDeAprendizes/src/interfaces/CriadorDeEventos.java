@@ -1,5 +1,7 @@
 package interfaces;
 
+import model.Evento;
+
 public interface CriadorDeEventos {
-	public String criarEvento(String evento);
+	public String criarEvento(Evento evento);
 }

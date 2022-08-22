@@ -6,7 +6,7 @@ import interfaces.CriadorDeEventos;
 public class Mentor extends Professor implements CriadorDeEventos{
 
 	@Override
-	public String criarEvento(String evento) {
-		return "Oi, sou mentor e estou criando o evento " + evento;
+	public String criarEvento(Evento evento) {
+		return "Evento " + evento.getNome() + " criado\nAssunto abordado: " + evento.getAssunto();
 	}
 }

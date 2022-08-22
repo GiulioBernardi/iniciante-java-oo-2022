@@ -17,7 +17,7 @@ public class Organizador extends Usuario implements CriadorDeEventos, Auxiliador
 	}
 
 	@Override
-	public String criarEvento(String evento) {
-		return "Eu, como organizador do movimento codar, estou criando o evento " + evento;
+	public String criarEvento(Evento evento) {
+		return "Evento " + evento.getNome() + " criado\nAssunto abordado: " + evento.getAssunto();
 	}
 }

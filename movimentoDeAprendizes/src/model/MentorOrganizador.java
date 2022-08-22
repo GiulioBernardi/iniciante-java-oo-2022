@@ -17,7 +17,7 @@ public class MentorOrganizador extends Professor implements CriadorDeEventos, Au
 	}
 
 	@Override
-	public String criarEvento(String evento) {
-		return "Oi, sou mentor e organizaor. Estou criando o evento " + evento;
+	public String criarEvento(Evento evento) {
+		return "Evento " + evento.getNome() + " criado\nAssunto abordado: " + evento.getAssunto();
 	}
 }

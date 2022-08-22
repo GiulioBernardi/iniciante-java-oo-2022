@@ -1,6 +1,8 @@
 package movimentoDeAprendizes;
 
 import model.Aprendiz;
+import model.Desafio;
+import model.Evento;
 import model.Mentor;
 import model.MentorOrganizador;
 import model.Organizador;
@@ -38,12 +40,21 @@ public class ClasseMain {
 		mentor.setSobrenome("Branquinho");
 		mentor.setStack("Backend");
 
+		Evento evento1 = new Evento();
+		evento1.setNome("Explicação do desafio de Java");
+		evento1.setAssunto("desafio");
+		
+		Desafio desafio1 = new Desafio();
+		desafio1.setNome("Desafio Orientação a objetos 2022");
+		desafio1.setTema("Escola");
+		
+		
 		System.out.println("Olá, sou o mentor " + mentor.getNome() + " " + mentor.getSobrenome() + " eu trabalho com " + mentor.getStack());;
-		executar(mentor.criarEvento("Explicação do desafio de Java"));
-		executar(mentor.criarDesafio("Desafio Orientação a objetos 2022"));
-		executar(mentor.revisarDesafio("Iniciante em programação 2022"));
-		executar(mentor.solucionarDesafio("Orientação a objetos 2022"));
-		executar(mentor.ministrarEvento("Como utilizar java em uma empresa inovadora"));
+		executar(mentor.criarEvento(evento1));
+		executar(mentor.criarDesafio(desafio1));
+		executar(mentor.revisarDesafio(desafio1));
+		executar(mentor.solucionarDesafio(desafio1));
+		executar(mentor.ministrarEvento(evento1));
 		executar(mentor.auxiliarAprendizado("Evite deixar código comentado na versão final do seu proejto"));
 		executar(mentor.compartilharExperiencia("Ao revisar um código, tive que fazer uma reunião com o responsável. Foi tranquilo, mas é sempre importante manter a comunicação em dia"));
 
@@ -55,12 +66,20 @@ public class ClasseMain {
 		mentorOrganizador.setSobrenome("Ueda");
 		mentorOrganizador.setStack("frontend");
 		
+		Evento evento2 = new Evento();
+		evento2.setNome("Review de java e orientação a objetos");
+		evento2.setAssunto("Orientação a objetos");
+		
+		Desafio desafio2 = new Desafio();
+		desafio2.setNome("Iniciante em programação 2022");
+		desafio2.setTema("Jogo da velha");
+		
 		System.out.println("Olá, sou o mentor e organizador " + mentorOrganizador.getNome() + " " + mentorOrganizador.getSobrenome() + " trabalho principalmente com " + mentorOrganizador.getStack());;
-		executar(mentorOrganizador.criarEvento("Review de java e orientação a objetos"));	
-		executar(mentorOrganizador.criarDesafio("Iniciante em programação 2022"));
-		executar(mentorOrganizador.revisarDesafio("Desafio de orientação a objetos"));
-		executar(mentorOrganizador.solucionarDesafio("Iniciante em programação 2022"));
-		executar(mentorOrganizador.ministrarEvento("o que um dev backend deve saber sobre frontend"));
+		executar(mentorOrganizador.criarEvento(evento2));	
+		executar(mentorOrganizador.criarDesafio(desafio2));
+		executar(mentorOrganizador.revisarDesafio(desafio2));
+		executar(mentorOrganizador.solucionarDesafio(desafio2));
+		executar(mentorOrganizador.ministrarEvento(evento2));
 		executar(mentorOrganizador.auxiliarAprendizado("que a iteração do for começa em 0 em java"));
 		executar(mentorOrganizador.compartilharExperiencia("erro em produção é crítico, você tem que parar tudo para resolver"));
 		//funções de organizador abaixo
@@ -75,7 +94,10 @@ public class ClasseMain {
 		organizador.setSobrenome("Cestaro");
 		System.out.println("Olá, sou a organizadora " + organizador.getNome() + " " + organizador.getSobrenome());
 
-		executar(organizador.criarEvento("Como responder objetivamente as perguntas em uma entrevista de emprego"));
+		Evento evento3 = new Evento();
+		evento3.setNome("Como responder objetivamente as perguntas em uma entrevista de emprego");
+		evento3.setAssunto("Dicas profissionais");
+		executar(organizador.criarEvento(evento3));
 		executar(organizador.explicarRegra("evitar chamar os organizadores e mentores no privado"));
 		executar(organizador.explicarProcesso("compartilhar seu linkedin e github no discord"));
 		

@@ -1,23 +1,26 @@
 package abstracts;
 
+import model.Desafio;
+import model.Evento;
+
 public abstract class Professor extends Usuario{
 	
 	private String stack;
 	
-	public String criarDesafio(String desafio) {
-		return "Criando desafio " + desafio + "...";
+	public String criarDesafio(Desafio desafio) {
+		return "Desafio " + desafio.getNome() + " criado\nTema do desafio: " + desafio.getTema();
 	}
 	
-	public String revisarDesafio(String desafio) {
-		return "Revisando desafio " + desafio + "...";
+	public String revisarDesafio(Desafio desafio) {
+		return "Revisando desafio " + desafio.getNome() + "...";
 	}
 	
-	public String solucionarDesafio(String desafio) {
-		return "Solucionando desafio " + desafio + "...";
+	public String solucionarDesafio(Desafio desafio) {
+		return "Solucionando desafio " + desafio.getNome() + "...";
 	}
 	
-	public String ministrarEvento(String assuntoAbordado) {
-		return "Olá aprendizes, hoje vou falar sobre " + assuntoAbordado;
+	public String ministrarEvento(Evento evento) {
+		return "Olá aprendizes, hoje vou falar sobre " + evento.getAssunto();
 	}
 	
 	public String auxiliarAprendizado(String auxilio) {
