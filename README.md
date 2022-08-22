@@ -1,3 +1,15 @@
+# Resultado da modelagem
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/54187661/185817620-f1e11106-c199-4e3f-93f6-988df520d736.png" />
+</p>
+
+Como dá para ver, usei e abusei de interfaces e classes abstratas a ponto de uma classe modelo herdar uma classe abstrata e implementar outras duas interfaces.
+Aprendi a usar HashMap no Java graças a esse desafio
+
+
+
+
+
 # iniciante-java-oo-2022
 
 ## Desafio
