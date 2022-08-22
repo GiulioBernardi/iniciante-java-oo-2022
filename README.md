@@ -1,6 +1,6 @@
 # Resultado da modelagem
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/54187661/185817620-f1e11106-c199-4e3f-93f6-988df520d736.png" />
+  <img src="https://user-images.githubusercontent.com/54187661/185997138-59cb3a12-1433-4693-b370-4cafb40de7a7.png" />
 </p>
 
 ## Obs
@@ -12,7 +12,7 @@ Aprendi a usar HashMap no Java graças a esse desafio
 ## Exemplo do console ao rodar a main
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/54187661/185905938-f83b19d9-45bf-4559-bc22-78927fbdbf14.png" />
+  <img src="https://user-images.githubusercontent.com/54187661/185997203-fca96ce0-599e-4869-95aa-c0388033630a.png" />
 </p>
 Cada linha desse console é exibida pela chamada de cada método das classes.
 
