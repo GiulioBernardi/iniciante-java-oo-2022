@@ -18,7 +18,6 @@ public abstract class Professor extends Usuario{
 	
 	public String ministrarEvento(String assuntoAbordado) {
 		return "Olá aprendizes, hoje vou falar sobre " + assuntoAbordado;
-
 	}
 	
 	public String auxiliarAprendizado(String auxilio) {
@@ -37,5 +36,4 @@ public abstract class Professor extends Usuario{
 	public void setStack(String stack) {
 		this.stack = stack;
 	}
-		
 }

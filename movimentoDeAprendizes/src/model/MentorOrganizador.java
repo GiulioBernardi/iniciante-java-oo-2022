@@ -20,8 +20,4 @@ public class MentorOrganizador extends Professor implements CriadorDeEventos, Au
 	public String criarEvento(String evento) {
 		return "Oi, sou mentor e organizaor. Estou criando o evento " + evento;
 	}
-
-
-	
-
 }

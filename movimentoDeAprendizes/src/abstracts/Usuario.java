@@ -15,9 +15,5 @@ public abstract class Usuario {
 	}
 	public void setSobrenome(String sobrenome) {
 		this.sobrenome = sobrenome;
-	}
-	
-	
-	
-	
+	}	
 }

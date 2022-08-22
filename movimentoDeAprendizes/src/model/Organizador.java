@@ -18,11 +18,6 @@ public class Organizador extends Usuario implements CriadorDeEventos, Auxiliador
 
 	@Override
 	public String criarEvento(String evento) {
-		// TODO Auto-generated method stub
 		return "Eu, como organizador do movimento codar, estou criando o evento " + evento;
 	}
-
-
-
-
 }

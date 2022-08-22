@@ -30,7 +30,6 @@ public class ClasseMain {
 		aprendiz.exibirHabilidades();
 		
 		
-		
 		System.out.println();
 		System.out.println("------MENTOR------");
 		
@@ -80,13 +79,9 @@ public class ClasseMain {
 		executar(organizador.explicarRegra("evitar chamar os organizadores e mentores no privado"));
 		executar(organizador.explicarProcesso("compartilhar seu linkedin e github no discord"));
 		
-
-
 	}
 	
 	public static void executar(String metodoQueRetornaString) {
 		System.out.println(metodoQueRetornaString);
 	}
-	
-
 }

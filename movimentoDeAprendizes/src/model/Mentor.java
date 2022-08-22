@@ -9,5 +9,4 @@ public class Mentor extends Professor implements CriadorDeEventos{
 	public String criarEvento(String evento) {
 		return "Oi, sou mentor e estou criando o evento " + evento;
 	}
-	
 }

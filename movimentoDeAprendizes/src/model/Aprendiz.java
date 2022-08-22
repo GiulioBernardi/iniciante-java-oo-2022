@@ -42,6 +42,4 @@ public class Aprendiz extends Usuario{
 		    System.out.println("Habilidade: " + nomeDaHabilidade + " - Nível: " + nivelDaHabilidade);
 		}
 	}
-	
-	
 }
