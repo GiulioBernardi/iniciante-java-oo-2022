@@ -15,7 +15,3 @@ Aprendi a usar HashMap no Java graças a esse desafio
   <img src="https://user-images.githubusercontent.com/54187661/185997203-fca96ce0-599e-4869-95aa-c0388033630a.png" />
 </p>
 Cada linha desse console é exibida pela chamada de cada método das classes.
-
-# iniciante-java-oo-2022
-
-
